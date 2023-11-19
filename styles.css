@@ -1,0 +1,107 @@
+.body {
+    background-color: grey;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #0026ff;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(0, 255, 213);
+    display: inline-block;
+    transition: transform 0.5s
+}
+
+.social-icons a:hover {
+    color: #4c00ff;
+    transform: translateY(-5px);
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 84px 3px;
+    width: fit-content;
+    border: 1px solid #b81045;
+    padding: 17px 19px;
+    border-radius: 7px;
+    font-size: 20px;
+    transition: tranform 0.5s;
+}
+
+.btn:hover {
+    background-color: #cf3063;
+    transform: translateY(-4px);
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #d64d78;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    ;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copy {
+    color: white;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(34, 34, 34);
+    font-weight: 300;
+    margin-top: 20px;
+}
